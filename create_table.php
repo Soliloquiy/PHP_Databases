@@ -30,4 +30,6 @@ try {
   echo 'Connection failed: ' . $e->getMessage();
 }
 
+$con = null;
+
 ?>
